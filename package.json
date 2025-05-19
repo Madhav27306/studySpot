@@ -1,0 +1,27 @@
+{
+  "name": "study-spot-finder",
+  "version": "1.0.0",
+  "main": "Script.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.10.1",
+    "node-fetch": "^2.7.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+  ,"jest": {
+  "testEnvironment": "node"
+}
+
+}

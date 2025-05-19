@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Study Spot</title>
+        <link rel="stylesheet" href="Home.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ol3/4.6.5/ol.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ol3/4.6.5/ol.js"></script>
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar for study spot details -->
+        <div class="sidebar">
+            <h2>📍 Study Spots</h2>
+
+           <div class="study-spot">
+    <h3>Library</h3>
+    <p>Status: <span id="library-status" class="status">Loading...</span></p>
+</div>
+
+<div class="study-spot">
+    <h3>Union</h3>
+    <p>Status: <span id="union-status" class="status">Loading...</span></p>
+</div>
+
+
+        </div>
+
+        <!-- Map Container -->
+        <div id="map"></div>
+    </div>
+
+    <script src="Script.js"></script>
+</body>
+</html>
